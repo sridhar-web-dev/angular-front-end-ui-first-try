@@ -1,0 +1,75 @@
+.homeBanner
+{
+    background-color: #ffffff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(../../assets/images/home-banner.jpg);
+}
+.homeBanner h1
+{
+    font-size: 60px;
+    margin: 15px 0;
+    color: #1f4b43;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.homeBanner .let-us p
+{
+    color: #1f4b43;
+    font-size: 13px;
+    margin: 0;
+    font-weight: 500;
+    border-radius: 25px;
+    padding: 10px 15px;
+    display: inline-block;
+    border: 1px solid #1f4b43;
+}
+.banner-look-list ul
+{
+    display: flex;
+    justify-content: center;
+}
+.banner-look-list ul li
+{
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+    padding: 5px 10px 5px 5px;
+    border-radius: 50px;
+    background-color: #1f4b43;
+    backdrop-filter: blur(5px); 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.banner-look-list ul li img
+{
+    margin-right: 10px;
+}
+.banner-look-list ul li p
+{
+    margin: 0;
+    color: #ffffff;
+}
+.search-field
+{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+    width: 650px;
+    margin: 20px 0;
+    padding: 20px 20px;
+    border-radius: 50px;
+    height: 58px;
+}
+.search-btn
+{
+    position: relative;
+}
+.addon-btn
+{
+    position: absolute;
+    right: 108px;
+    top: 25px;
+    border: none;
+    padding: 12px;
+    border-radius: 50px;
+    background-color: #E7C873;
+}

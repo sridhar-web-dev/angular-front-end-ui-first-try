@@ -1,0 +1,54 @@
+.nav-section {
+    z-index: 1000;
+    margin-top: 20px;
+    position: fixed;
+    width: 100%;
+    padding: 0 30px;
+
+}
+
+.nav-section nav {
+    border-radius: 50px;
+    padding: 10px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.nav-section nav .nav-item a {
+    color: hsl(0, 0%, 10%);
+    font-weight: 700;
+}
+
+.nav-section nav .nav-item {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-right ul {
+    display: flex;
+    margin-bottom: 0;
+    align-items: center;
+}
+
+.nav-right ul li {
+    margin-right: 20px;
+}
+
+.nav-right ul li .call-action,
+.nav-right ul li .btn-prt {
+    color: #000000;
+    font-weight: 600;
+}
+
+.nav-right ul li .btn-prt {
+    padding: 5px 15px;
+    border: 1px solid #000000;
+    border-radius: 25px;
+}

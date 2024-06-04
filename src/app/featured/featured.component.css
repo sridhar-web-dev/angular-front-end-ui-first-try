@@ -1,0 +1,112 @@
+.featured .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: transparent;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 7.5px 15px;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.featured .nav-link {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 7.5px 15px;
+}
+
+.featured .nav-pills {
+    margin: 25px 0;
+}
+
+.featured .nav-pills .nav-item {
+    margin: 0 15px;
+}
+
+.featured .div-bg {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.featured .div-label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.featured .div-details
+{
+    position: absolute;
+    bottom: 5px;
+    
+    padding: 15px;
+    width: 100%;
+    
+}
+.featured .div-details .card
+{
+    background: rgba(255, 255, 255, 0.8);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.featured .div-details .card .card-body h5
+{
+    font-size: 19px;
+    font-weight: 600;
+}
+.featured .div-details .card .card-body h6
+{
+    color: #EB664E;
+    font-weight: 600;
+    font-size: 19px;
+}
+.featured .div-label ul {
+    display: flex;
+    padding-left: 0;
+}
+
+.featured .div-label ul li {
+    margin: 0 10px;
+}
+
+.featured .div-label ul li.label-1,
+.featured .div-label ul li.label-2 {
+    background-color: #1F4B43;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 15px;
+    font-size: 13px;
+    padding: 3px 12px;
+}
+
+.featured .div-label ul li.label-2 {
+    background-color: #E7C873;
+    color: #000000;
+}
+ul.featured-list
+{
+    display: flex;
+    justify-content: end;
+}
+ul.featured-list li
+{
+    margin: 0 5px;
+}
+
+.see-all-btn
+{
+    text-decoration: none;
+    color: #000000;
+    background-color: #E7C873;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+}
+.featured .div-bg img
+{
+    border-radius: 15px;
+}
